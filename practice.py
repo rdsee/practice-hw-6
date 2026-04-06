@@ -49,3 +49,25 @@
 # result = sorted(numbers)
 # print(result)
 # print(numbers)
+
+# users = {
+# 	4: 'key',
+# 	2: 234,
+# 	3: True,
+#     'key': 2,
+# 	False: 'pen',
+# 	True: 33
+# }
+#
+# print(users)
+# print(type(users))
+# print(users['key'])
+# print(users[0])
+# print(users[1])
+# print(users[2])
+# print(users[3])
+# print(users[4])
+# print(users[True])
+# print(users[False])
+
+
