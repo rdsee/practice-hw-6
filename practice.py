@@ -6,7 +6,7 @@
 # tuple1 = 1, nums, int(input('Enter a number: '))
 # print(tuple1)
 #
-
+#
 # import copy
 #
 # info = 123, 'll', 3.24
@@ -23,3 +23,29 @@
 # print(info)
 # print(info[2:3])
 # print(info[0:3:2])
+
+# print(range(5))
+# print(range(1, 5))
+# print(range(1, 5, 2))
+# result = range(5)
+# print(result)
+# print(type(result))
+#
+# numbers = list(range(10))
+# print(numbers)
+#
+# numbers = list(range(3, 10))
+# print(numbers)
+#
+# numbers = list(range(1, 10, 2))
+# print(numbers)
+#
+# numbers = list(range(10, 0, -1))
+# print(numbers)
+#
+# numbers = tuple(range(10, 0, -1))
+# print(numbers)
+#
+# result = sorted(numbers)
+# print(result)
+# print(numbers)
