@@ -81,3 +81,17 @@
 # print(users)
 # users["+111111"] = 'Tom'
 # print(users)
+#
+# for key in users:
+# 	print(key, end = ', ')
+# print('\n')
+#
+# for keys in users.keys():
+# 	print(keys, end = ', ')
+# print('\n')
+#
+# for value in users.values():
+# 	print(value, end = ', ')
+#
+# for key, value in users.items():
+# 	print(f'key: {key}, value: {value}')
