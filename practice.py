@@ -70,4 +70,14 @@
 # print(users[True])
 # print(users[False])
 
-
+# users = {
+# 	"+111111":"Bob",
+# 	"+222222":"Alice",
+# 	"+333333":"Bob"
+# }
+#
+# print(users)
+# users['+444444'] = 'Victor'
+# print(users)
+# users["+111111"] = 'Tom'
+# print(users)
