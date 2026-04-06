@@ -95,3 +95,43 @@
 #
 # for key, value in users.items():
 # 	print(f'key: {key}, value: {value}')
+
+# users = {
+#     "+111111": "Bob",
+#     "+222222": "Alice",
+#     "+333333": "Tom"
+# }
+#
+# users2 = {
+#     "+12": "Robin",
+#     "+13": "Ali",
+#     "+14": "Tomik"
+# }
+#
+# # get(key) — возвращает значение по ключу; если ключ не найден, возвращает None (или default)
+# print(users.get("+111111"))        # Bob
+# print(users.get("+999999"))        # None — ключа нет, но ошибки не будет
+# print(users.get("+999999", "N/A")) # N/A — значение по умолчанию
+#
+# # pop(key) — удаляет пару из словаря и возвращает значение
+# removed = users.pop("+222222")
+# print(removed)   # Alice
+# print(users)     # Alice больше нет
+#
+# # copy() — создаёт поверхностную копию словаря
+# users_copy = users.copy()
+# users.pop("+333333")   # удаляем из оригинала
+# print(users)           # Tom удалён
+# print(users_copy)      # копия не изменилась — она независима
+#
+# # update(other) — добавляет все пары из другого словаря (или перезаписывает существующие)
+# users_copy.update(users2)
+# print(users_copy)      # в копии теперь и старые и новые номера
+# print(users)
+# # len() — количество пар в словаре
+# print(len(users_copy))
+# print(len(users))
+#
+# # clear() — удаляет все элементы словаря
+# users2.clear()
+# print(users2)   # {}
