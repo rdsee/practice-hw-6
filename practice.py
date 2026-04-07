@@ -135,3 +135,46 @@
 # # clear() — удаляет все элементы словаря
 # users2.clear()
 # print(users2)   # {}
+
+users = {
+    1:
+        {
+            "name": "Petro",
+            "age": 20,
+            "hobbies": ["running" , "swimming"],
+            "siblings": ["Kira", "Bob", "Martin"],
+            "height": 1.74,
+            "man": True
+        },
+    2:
+        {
+            "name": "Sofia",
+            "age": 19,
+            "hobbies": ["tennis" , "soccer"],
+            "siblings": False,
+            "height": 1.64,
+            "woman": True
+        },
+    (3, 4):
+        {
+            "name": ["Oleg" , "Olga"],
+            "age": [21, 24],
+            "hobbies": {
+                "first_person": ["football", "hockey"],
+                "second_person": ["yoga", "pilates"]
+            },
+            "height": (1.80, 1.60),
+            "sex": [
+                "male",
+                "female"
+            ]
+    }
+}
+
+print(users[2]["name"])
+print(users[1]["name"])
+print(users[(3, 4)]["name"][1])
+print(users[(3, 4)]["hobbies"]["second_person"][0])
+print(users[(3, 4)]["height"][0])
+print(users[(3, 4)]["sex"][1])
+
