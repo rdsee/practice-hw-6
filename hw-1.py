@@ -18,7 +18,19 @@ multiset = num1_set.intersection(num2_set)
 print(f'Equal nums: {len(multiset)}')
 print('\n')
 
+#3
+user_count = int(input('Enter number of sentences: '))
 
+sentence_list = []
+for i in range(user_count):
+    sentence = (input(f'Enter your {i + 1} sentence: ', ))
+    stock_words = sentence.lower().split()
+    sentence_list.extend(stock_words)
+
+print(f'Sentence list: {sentence_list}')
+words = set(sentence_list)
+print(f'Sentence set list: {words}')
+print(f'Count of unique words: {len(words)}')
 
 
 
