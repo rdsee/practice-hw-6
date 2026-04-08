@@ -12,3 +12,11 @@ for key, value in countries.items():
         countries2[city] = key
 print(countries2)
 
+#2
+letters = ['a', 'b', 'c', 'd']
+numbers = [1, 2, 6, 4]
+
+dictionary = {}
+for i in range(len(letters)):
+    dictionary[letters[i]] = numbers[i]
+print(dictionary)
