@@ -221,3 +221,9 @@
 # users3 = users2.difference(users1) #выдает то, чем отличается коллекция одна от другой. То есть что есть в одной, чего нет в другой.
 # print(users3)
 
+# users1 = {'Tom', 'Alice', 'Bob'}
+# users2 = {'Kate', 'Alice', 'Sam', 'Tom', 'Bob'}
+#
+# print(users1.issubset(users2)) # явялется ли юзерс1 поднможеством юзерс2
+# print(users1.issuperset(users2)) # явялется ли юзерс1 наднможеством юзерс2
+
