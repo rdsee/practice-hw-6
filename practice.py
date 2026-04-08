@@ -206,3 +206,18 @@
 # for i in people:
 #     print(i)
 
+# users1 = {'Tom', 'Alice', 'Bob'}
+# users2 = {'Kate', 'Alice', 'Sam'}
+#
+# users3 = users1.union(users2) # ОбъединяетЮ заменяет повторяющиеся переменные на одну общую
+# print(users3)
+#
+# users1 = {'Tom', 'Alice', 'Bob'}
+# users2 = {'Kate', 'Alice', 'Sam', 'Tom'}
+#
+# users3 = users1.intersection(users2) #выдает одинаковые элементы с двух разных коллекций
+# print(users3)
+#
+# users3 = users2.difference(users1) #выдает то, чем отличается коллекция одна от другой. То есть что есть в одной, чего нет в другой.
+# print(users3)
+
